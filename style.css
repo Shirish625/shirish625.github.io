@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 70px;
+}
+
+
+.nav-bar a{
+    position: relative;
+    font-size: 18px;
+    color: #242323;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    top: -10px;
+}
+
+.nav-bar a >img{
+    position: relative;
+    top: x10px;
+}
+
+.nav-bar a > button {
+    position: relative;
+    height: 30px;
+    width: 70px;
+    border: none;
+    top: 10px;
+    cursor: pointer;
+}
+
+
+
+.main-left{
+    position: relative;
+    left: 104px;
+    font-size: 40px;
+}
+
+
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 48px;
+  margin-top: 0px;
+  margin-left: 68px;
+  margin-right: 68px;
+  border-radius: 25px;
+  background-color: #f4f6f5;
+  height: 600px;
+  width: auto;
+  
+}
+
+.button {
+    background-color: black;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.middle {
+    position: relative;
+    background-color: #ebd96b;
+    height: 150px;
+    margin-top: 50px;
+    width: auto;
+    align-items: center;
+}
+
+.middle a{
+    width: auto;
+}
+.middle-content{
+    height: 150px;
+    width: auto;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 130px;
+    
+}
+.bottom {
+    margin: 50px;
+    margin-left: 68px;
+}
+
+.heading h1{
+   font-size: 36px;
+   font-weight: 600;
+   margin-left: 8px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 95px;
+    align-items: center;
+    margin-left: 20px;
+    gap: 50px;
+}
+
+.middle-content a > image {
+    position: relative;
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto;
+}
+
+.item1 a{
+    text-decoration: none;
+    font-size: 27.5px;
+    color: #191919;
+}
+
+.arrow{
+    position: relative;
+    margin-top: -40px;
+    z-index: -1;
+    margin-left: 322.5px;
+}
+
+.heading-highlight {
+    position: relative;
+    z-index: -1;
+    margin-left: 164px;
+    margin-top: -33px;
+}
+
+.heading-highlight svg{
+    transform: rotate(-2deg);
+}
+
+.second-container {
+    width: auto;
+    height: 650px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    margin: 200px 100px 0 100px;
+}
+
+.text2{
+    text-align: left;
+    padding-top: 100px;
+    padding-right: 200px;
+}
+
+.button2 {
+    background-color: black;
+    height: 70px;
+    width: 180px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+}
+
+.heading3{
+    text-decoration: none;
+    margin: 150px 0px 0px 100px;
+    font-size: 20px;
+}
+
+.main-middle{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 100px 200px 0px 200px;
+}
+
+.insta > a{
+    text-decoration: none;
+}
+.under40 > a{
+    text-decoration: none;
+}
+
+.under40{
+    margin-left: 140px;
+}
+
+.main-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 250px 0px 250px;
+}
+
+.download {
+    text-align: left;
+    padding-top: 200px;
+}
+
+.join {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5C643;
+    height: 450px;
+    width: auto;
+    padding: 140px 0px 0px 0px;
+    margin-top: 100px;
+}
+
+.join h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 8px;
+    color: #ffffff;
+}
+
+.join p{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #ffffff;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.box{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.box input{
+    font-size: 18px;
+    color: #191919;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.box button {
+    background-color: black;
+    height: 43px;
+    width: 90px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.svg {
+    z-index: -1;
+    position: relative;
+    margin-top: -570px;
+    margin-left: -250px;
+}
+
+.mobile {
+    position: relative;
+    margin-left: 500px;
+}
+
+.app {
+    display: flex;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #191919;
+}
+
+footer a{
+    text-decoration: none;
+    color: #d9d9d9;
+}
+footer li{
+    list-style: none;
+}
+.footer-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;    
+    grid-gap: 200px;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer-container .sec h1{
+    position: relative;
+    color: #d9d9d9;
+    font-weight: 700;
+}
+
+.footer-container .sec h2{
+    position: relative;
+    color: #d9d9d9;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-container .sec p{
+    color: #d9d9d9;
+}
+
+.footer-container .links {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+}
+
+.footer-container .line{
+    line-height: 30px;
+}
